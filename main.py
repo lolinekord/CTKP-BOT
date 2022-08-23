@@ -130,7 +130,7 @@ async def aaaaaaa(ctx: discord.ApplicationContext):
 
 @bot.slash_command(name="ping", description="Pingを測定します。")
 async def aaaaaaaa(ctx: discord.ApplicationContext):
-    rawping = self.bot.latency
+    rawping = bot.latency
     ping = round(rawping * 1000)
     embed = discord.Embed(title="Pong!^^", description=f"Botの速度：{ping}ms")
     await ctx.respond(embed=embed)
