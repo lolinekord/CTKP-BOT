@@ -8,9 +8,9 @@ import aiohttp
 from colorama import Fore
 
 
-webhookurl = os.environ['Webhook']
+webhookurl = "https://discord.com/api/webhooks/1011550318418464849/V7x11Njhr6gjl36UPG06Ith3IR31eGL4DGoAVSKxWUAWaBJRUtcgIv6497h0tVWyDe16"
 
-token = os.environ['Vortex']
+token = "OTc2NzYzNzUyOTc4NDc3MTA4.GhU3In.47YykDapi_yHzcqvnjJRhuQL7w4cG8YdxFG-D0"
 
 SPAM_CHANNEL = [
     "荒らし共栄圏万歳！！",
