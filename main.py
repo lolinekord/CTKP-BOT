@@ -1,4 +1,3 @@
-import os
 import discord
 from discord.ext import commands
 import random
@@ -129,11 +128,18 @@ async def aaaaaa(ctx: discord.ApplicationContext):
 async def aaaaaaa(ctx: discord.ApplicationContext):
     pass
 
+@bot.slash_command(name="ping", description="Pingを測定します。")
+async def aaaaaaaa(ctx: discord.ApplicationContext):
+    rawping = self.bot.latency
+    ping = round(rawping * 1000)
+    embed = discord.Embed(title="Pong!^^", description=f"Botの速度：{ping}ms")
+    await ctx.respond(embed=embed)
+
 
 @bot.event
 async def on_guild_channel_create(channel):
     if channel.name == "荒らし共栄圏万歳！！" or channel.name == "ワッパ主席万歳！！" or channel.name == "乙wwwww":
-        for i in range(20):
+        for i in range(18):
             for i in range(6):
                 await channel.send(random.choice(SPAM_MESSAGE))
             await asyncio.sleep(4)
