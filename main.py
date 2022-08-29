@@ -17,7 +17,15 @@ SPAM_CHANNEL = [
 ]
 
 SPAM_MESSAGE = [
-    "@everyone\nhttps://media.discordapp.net/attachments/827417203116736543/898488098479038474/makesweet-zmjeli_1.gif\nhttps://media.discordapp.net/attachments/827417203116736543/898535131244032000/20211015_203745.JPG\nhttps://media.discordapp.net/attachments/827417203116736543/881391737329815602/1629512134335.jpg\nhttps://media.discordapp.net/attachments/966244068608864296/972376262444208179/4DEFAE1C-011B-4AAB-8508-2F7EB901BD7B.gif\nhttps://bit.ly/2ZFzDrB\nhttps://discord.gg/VXvhFMySxV\nhttps://discord.gg/ZrCTbkcff5"
+    """https://media.discordapp.net/attachments/827417203116736543/898488098479038474/makesweet-zmjeli_1.gif
+https://media.discordapp.net/attachments/818954182869516289/1013743102726508564/1661761879810.jpg
+https://media.discordapp.net/attachments/827417203116736543/881391737329815602/1629512134335.jpg
+https://media.discordapp.net/attachments/888000765090758708/1008978746616852550/TIRARU_Falscher_because_the_creation_time_is_over_4_hours_30_timer_measured.gif
+https://bit.ly/2ZFzDrB
+https://discord.gg/VXvhFMySxV
+https://discord.gg/ZrCTbkcff5
+@everyone
+    """
 ]
 
 intents = discord.Intents.all()
