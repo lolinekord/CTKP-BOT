@@ -1,1 +1,0 @@
-discord: python main.py
